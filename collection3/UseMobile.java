@@ -45,7 +45,7 @@ public class UseMobile {
       
       Set<Mobile> s=mobiles.values().stream().collect(Collectors.toSet());
       s.forEach(x->System.out.println(x));
-      
+      s.forEach(y->System.out.println(y));
       
       
       
